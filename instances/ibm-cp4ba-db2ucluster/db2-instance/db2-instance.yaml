@@ -50,8 +50,8 @@ spec:
     - name: data
       type: "create"
       spec:
-        # storageClassName: ocs-storagecluster-rbd
-        storageClassName: ibmc-file-gold-gid
+        storageClassName: ocs-storagecluster-rbd
+        # storageClassName: ibmc-file-gold-gid
         accessModes:
           - ReadWriteOnce
         resources:
